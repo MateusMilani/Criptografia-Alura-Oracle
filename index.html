@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="Vector.png" alt="Logo alura letra a">
+        <h1 class="decoder">Decodificador</h1>
+    </header>
+
+    <main class="main">
+
+    <section>
+
+        <textarea id="input" cols="40" rows="8" placeholder="Digite aqui..."></textarea>
+        <div>
+            <img src="botao1.png" alt="Exclamação, apenas letras maiusculas" />
+            <h6 class="informacao">Apenas letras maiusculas e minusculas</h6>
+            
+        </div>
+        <div class="botoes">
+
+        <button class="criptografar" onclick="btnEcriptar()">
+                Criptografar
+        </button>
+
+            <button class="descriptografar" onclick="btnDescript()">
+                Descriptografar
+        </button>
+        <button id="copResult" onclick="clipboardCopy()"> 
+            Copiar Resultado
+        </button>
+        
+
+    </section>
+
+    <section>
+        
+        <textarea id="mensagem" cols="18" rows="8" placeholder="Resultado" disabled></textarea>
+    
+    </section>
+    <section>
+        
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+<footer>
+
+    <a id="rodape" class="rodape">
+        Desenvolvido por Mateus Milani.
+    </a>
+    <a href="https://github.com/MateusMilani" target="_blank">
+        <img src="github.png" />
+    </a>
+    <!-- <a href="https://www.linkedin.com/in/mateus-milani25/" target="_blank">
+        <img src="linkedin.png" />
+    </a> -->
+    
+</footer>
+
+</html>
